@@ -12,8 +12,8 @@ jobs:
       env:
         SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
       with:
-        source_repo: "git@github.com:Yu-Core/SwashbucklerDiary.git"
-        destination_repo: "git@gitee.com:Yu-core/SwashbucklerDiary.git"
+        source_repo: "git@github.com:XingLingQAQ/SwashbucklerDiary.git"
+        destination_repo: "git@gitee.com:XingLingQAQ/SwashbucklerDiary.git"
         branches: "gh-pages"
         force_push_branches: true
 
