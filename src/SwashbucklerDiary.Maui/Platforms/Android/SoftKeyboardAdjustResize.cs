@@ -54,10 +54,10 @@ namespace SwashbucklerDiary.Maui
                 {
                     frameLayoutParams.Height = usableHeightNow;
                 }
-
-                mChildOfContent.RequestLayout();
-                usableHeightPrevious = usableHeightNow;
             }
+
+            mChildOfContent.RequestLayout();
+            usableHeightPrevious = usableHeightNow;
         }
 
         void SetBackgroundColor(Android.Graphics.Color color)
