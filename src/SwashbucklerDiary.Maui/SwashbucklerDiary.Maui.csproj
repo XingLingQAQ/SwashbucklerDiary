@@ -22,6 +22,7 @@
 		<CompressionEnabled>false</CompressionEnabled>
 		<Nullable>enable</Nullable>
 		<NullabilityInfoContextSupport>true</NullabilityInfoContextSupport>
+		<AssemblyName>Swashbuckler Diary</AssemblyName>
 		<MauiVersion>9.0.70</MauiVersion>
 
 		<!-- Display name -->
